@@ -14,6 +14,9 @@
     <js-module src="ispikit.js" name="ispikit">
         <clobbers target="ispikit" />
     </js-module>
+    <js-module src="ispikit1.js" name="ispikit1">
+        <clobbers target="ispikit1" />
+    </js-module>
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
             <feature name="IspikitCordovaPlugin">
